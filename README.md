@@ -28,7 +28,7 @@ log('Hello Star by webpack print_to_console from index.html');
 ```
 
 
-uncomment below line in index.html and check browser console as it is not abailable outside webpack :ok_hand:
+uncomment below line in index.html and check browser console as it is not available outside webpack :ok_hand:
 ```javascript
 print_to_console('Hello Star by webpack print_to_console from index.html');
 ```
