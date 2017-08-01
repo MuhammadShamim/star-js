@@ -1,0 +1,20 @@
+{
+  "name": "star-js",
+  "version": "1.0.0",
+  "description": "Just another application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadShamim/star-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadShamim/star-js/issues"
+  },
+  "homepage": "https://github.com/MuhammadShamim/star-js#readme"
+}
