@@ -1,4 +1,4 @@
-:star: 
+:star:
 # star-js
 ## Just another application
 
