@@ -69,8 +69,39 @@
 
 "use strict";
 
+//Import required modules
 
-console.log("Hello Star!");
+var _print_to_console = __webpack_require__(1);
+
+(0, _print_to_console.print_to_console)('Hello Star by print_to_console from index.js');
+//Not available outside webpack
+
+//Global availibility in index.html or say outside webpack
+window.log = _print_to_console.print_to_console;
+
+// alternative to DOMContentLoaded
+document.onreadystatechange = function () {
+    if (document.readyState == 'interactive') {
+        log('Document is ready');
+    }
+};
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+var print_to_console = function print_to_console() {
+	var _console;
+
+	(_console = console).log.apply(_console, arguments);
+};
+exports.print_to_console = print_to_console;
 
 /***/ })
 /******/ ]);

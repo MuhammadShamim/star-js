@@ -9,3 +9,9 @@ cd star-js
 npm install
 npm run dev
 ```
+
+# Build
+```shell
+npm run build
+npm run build-min
+```
