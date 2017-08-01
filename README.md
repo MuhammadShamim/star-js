@@ -7,8 +7,13 @@
 git clone https://github.com/MuhammadShamim/star-js.git star-js
 cd star-js
 npm install
+```
+
+# Development & Testing
+```shell
 npm run dev
 ```
+browse [localhost:786](http://localhost:786/)
 
 # Build
 ```shell
@@ -23,7 +28,11 @@ log('Hello Star by webpack print_to_console from index.html');
 ```
 
 
-uncomment below line in index.html and check browser console as it is not abailable outside webpack :ok_hand:
+uncomment below line in index.html and check browser console as it is not abailable outside webpack :-1:
 ```javascript
 print_to_console('Hello Star by webpack print_to_console from index.html');
 ```
+## * just playing with markdown
+- [x] Node Installation
+- [x] Project initial setup
+- [ ] Create another function one day
