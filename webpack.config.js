@@ -3,7 +3,7 @@ module.exports = env => {
 	return {
 		entry: './src/index.js',
 		output: {
-			path: path.resolve(__dirname, 'build'),
+			path: path.resolve(__dirname, 'build/i/star/'),
 			filename: env === "dev" ? 'star.js': "star-min.js"
 		},
 		module: {
