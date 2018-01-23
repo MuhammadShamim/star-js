@@ -1,18 +1,63 @@
+<!--In the name of God, the Most Gracious, the Most Merciful-->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Star JS</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <script src="star.js"></script>
-        <script>
-            // function in webpack
-            log('Hello Star by log from index.html');
+	<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+	<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en"> <![endif]-->
+	<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9" lang="en"> <![endif]-->
+	<!--[if IE 9]><html class="no-js lt-ie10" lang="en"> <![endif]-->
+	<!--[if gt IE 9]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+    <meta http-equiv="Cache-Control" content="no-cache" />	
+    <meta content="81" name="star">
+	<meta content="Muhammad Akhtar Shamim" name="author">
+	<meta content="ashamim@wwex.com" name="email">
+    <title>STAR</title>
+	<!-- <link href="star.ico" rel="icon"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gafata" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="star.css" type="text/css" />
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top navbar-light bg-faded">
+        <a class="navbar-brand" href="#" style="margin-right: 0rem;"><i class="fa fa-star fa-2x"></i></a>
+        <div class="brand">
+            <div class="name">STAR</div>
+            <div class="chat-num-messages" style="font-size:12px;">for <span class="message-data-name-me">Akhtar Shamim</span></div>
+        </div>
+        <ul class="nav navbar-nav" style="position: fixed;right: 0px;">
+            <li class="nav-item" style="margin-left: 0px;">
+                <a class="nav-link" href="#"><i class="fa fa-thumbs-o-up" style="font-size: 1.5em;"></i></a>
+            </li>
+            <li class="nav-item" style="margin-left: 0px;">
+                <a class="nav-link btn-disabled" href="#"><i class="fa fa-graduation-cap" style="font-size: 1.5em;"></i></a>
+            </li>
+            <li class="nav-item" style="margin-left: 0px;">
+                <a class="nav-link" href="#"><i class="fa fa-cog" style="font-size: 1.5em;"></i></a>
+            </li>
+            <li class="nav-item" style="margin-left: 0px;">
+                <a class="nav-link" href="#"><i class="fa fa-bug" style="font-size: 1.5em;"></i></a>
+            </li>
+        </ul>
+    </nav>
 
-            //function in webpack
-            // print_to_console('Hello Star by print_to_console from index.html');
-        </script>
-    </body>
+    <div id="content"><div class="chat-history"><ul></ul></div></div>
+
+    <nav class="navbar navbar-fixed-bottom navbar-light bg-faded">
+            <div class="chat-message clearfix">
+                <input type="text" name="message-to-send" id="message-to-send" placeholder ="Type HELP for command list *Help command after invoice creates prob">
+        </div>
+    </nav>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="star.js"></script>
+</body>
 </html>

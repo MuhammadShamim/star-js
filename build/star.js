@@ -86,6 +86,31 @@ document.onreadystatechange = function () {
     }
 };
 
+/*
+let log = require('./print_to_console.js');
+let nvl = require('./nvl.js');
+let report = require('./data_report.js');
+
+((window)=>{
+    // 'use strict';
+    let define_Star = () => {
+        let Star = {}
+
+        Star.log = log
+
+        Star.nvl = nvl
+        
+        Star.report = report
+
+        return Star
+    }
+    //define globally if it doesn't already exist
+    if(typeof(Star) === 'undefined'){
+        window.Star = define_Star()
+    }
+})(window)
+*/
+
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {

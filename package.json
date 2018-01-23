@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/MuhammadShamim/star-js#readme",
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
     "webpack": "^3.4.1"
   },
   "devDependencies": {
